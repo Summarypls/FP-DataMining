@@ -13,7 +13,10 @@ data = data.astype({
     'OperatingSystems': 'object',
     'Browser': 'object',
     'Region': 'object',
-    'TrafficType': 'object'
+    'TrafficType': 'object',
+    'Administrative': 'object',
+    'Informational': 'object',
+    'ProductRelated': 'object'
 })
 
 app_ui = ui.page_fluid(

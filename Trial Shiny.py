@@ -7,7 +7,7 @@ import seaborn as sns
 import os
 
 # Set the working directory and load the data
-os.chdir("E:/1 M A B A/Mining Gan/FinaPro")
+os.chdir("E:/1 M A B A/Mining Gan/FinaPro/FP-DataMining")
 data = pd.read_csv("osi.csv")
 
 data = data.astype({
